@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- CSS font control. Have:
+ - Dummy Text (Lorem Ipsum)
+ - Text Field for RGB values for border and text color
+ - Have a width slider for the border  -->
+<html>
+    <head>
+        <title>CSS font control</title>
+        <link rel="stylesheet" href="profile.css">
+        <script src="cssfont.js" defer></script>
+    </head>
+
+    <body>
+        <div class = "center">
+            <div class="editme" id="editme" style="border:solid; padding: 1%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident at voluptate delectus cum officia sit modi, nobis laudantium sunt saepe, dolorem veniam sint odio accusamus eligendi hic dolor commodi reiciendis.</p>
+            </div>
+            <div class="inputbox">
+                <label for="redinput">Red value (0-255):</label>
+                <input type="range" id="redinput" min="0" max="255" value="0" class="slider">
+                <br>
+                <label for="blueinput">Blue value (0-255):</label>
+                <input type="range" id="blueinput" min="0" max="255" value="0" class="slider">
+                <br>
+                <label for="greeninput">Green value (0-255):</label>
+                <input type="range" id="greeninput" min="0" max="255" value="0" class="slider">
+                <br>
+                <label for="width">Border width: (0-20):</label>
+                <input type="range" id="width" min="0" max="20" value="0" class="slider">
+            </div>
+            <br>
+            <p>Not sure why changing the width changes the background image scale but I'm not fixing it. It's part of the charm</p>
+            <a href="index.html">Back to index</a>
+        </div>
+        
+    </body>
+
+</html>

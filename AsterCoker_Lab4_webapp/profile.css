@@ -1,0 +1,29 @@
+small {
+    font-size: small;
+    color: rgb(169, 170, 180);
+}
+.center {
+    margin:auto;
+    width: 50%;
+    background-color: rgb(243, 245, 255);
+    border: 5px rgb(101, 113, 183);
+    padding: 5%;
+}
+body {
+    background-image: url("me_irl.jpg");
+    background-size: auto 25%;
+    background-repeat: repeat;
+    font-family: monospace;
+    border: 1px solid black;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
